@@ -1,0 +1,45 @@
+.fighter-preview___root {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 270px;
+  justify-content: space-between;
+  height: 100%;
+  /* max-height: 460px; */
+}
+
+.fighter-preview___right {
+  align-items: flex-end;
+}
+
+.fighter-preview___left {
+  align-items: flex-start;
+}
+
+p {
+  margin: 0;
+}
+
+.description {
+  width: 100%;
+}
+
+.description__item {
+  margin-bottom: 2px;
+  text-align: justify;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;;
+  color: #74c9af;
+  display: flex;
+  font-size: 20px;
+}
+
+.description__key {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+  text-shadow: none;
+}
+
+.description__buffer {
+  display: inline-block;
+  flex-grow: 1;
+}
